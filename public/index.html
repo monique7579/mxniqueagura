@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name — Portfolio</title>
+  <title>mxniqueagura</title>
   <style>
     :root {
-      --brand: #8b0000;
+      /* --brand: #8b0000;
       --bg: #f8f9fa;
       --text: #1a1a1a;
       --muted: #6b7280;
+      */
+      
+      --brand: #ff5e5b;       
+      --bg: #fff1e6;          
+      --text: #3b2f2f;        
+      --muted: #a78bbf;       
+      
     }
 
     * {
@@ -63,7 +70,11 @@
 
     /* Hero */
     .hero {
-      background: url('https://picsum.photos/1600/600?grayscale') center/cover no-repeat;
+      background: url('../assets/sunsetSkylineBackground.jpg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-attachment: scroll;
       color: white;
       min-height: 70vh;
       display: flex;
@@ -109,7 +120,8 @@
     }
 
     .btn:hover {
-      background: #a11c1c;
+      /* background: #a11c1c; */
+      background: #ff7f7f; /* lighter coral on hover */
     }
 
     /* Sections */
@@ -141,6 +153,7 @@
 
     .card:hover {
       transform: translateY(-4px);
+      box-shadow: 0 6px 16px rgba(255, 94, 91, 0.2); /* soft coral glow */
     }
 
     .card h3 {
@@ -189,8 +202,8 @@
   <!-- Hero -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Hello, I'm [Your Name]</h1>
-      <p>I’m a builder, student, and aspiring TPM — welcome to my digital space.</p>
+      <h1>Hello, I'm Monique Agura</h1>
+      <p>Showcasing innovation through code and creativity</p>
       <a href="#projects" class="btn">See My Work</a>
     </div>
   </section>
@@ -229,6 +242,8 @@
     <p>Email: <a href="mailto:your@email.com">aguramonique@gmail.com</a></p>
     <p>LinkedIn: <a href="#">linkedin.com/in/moniqueagura</a></p>
     <p>GitHub: <a href="#">github.com/monique7579</a></p>
+    <p>Pinterest: <a href="#">github.com/monique7579</a></p>
+    <p>Handshake: <a href="#">github.com/monique7579</a></p>
   </section>
 
   <!-- Footer -->
