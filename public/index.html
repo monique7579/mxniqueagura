@@ -4,185 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>mxniqueagura</title>
-  <style>
-    :root {
-      /* --brand: #8b0000;
-      --bg: #f8f9fa;
-      --text: #1a1a1a;
-      --muted: #6b7280;
-      */
-      
-      --brand: #ff5e5b;       
-      --bg: #fff1e6;          
-      --text: #3b2f2f;        
-      --muted: #a78bbf;       
-      
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: "Inter", system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    header {
-      background: #fff;
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      border-bottom: 1px solid #eee;
-    }
-
-    .nav-container {
-      max-width: 1100px;
-      margin: auto;
-      padding: 1rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo {
-      font-weight: 700;
-      font-size: 1.2rem;
-      color: var(--brand);
-      text-decoration: none;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 1.5rem;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: var(--text);
-      font-weight: 500;
-    }
-
-    /* Hero */
-    .hero {
-      background: url('../assets/sunsetSkylineBackground.jpg');
-      background-repeat: no-repeat;
-      background-position: center center;
-      background-size: cover;
-      background-attachment: scroll;
-      color: white;
-      min-height: 70vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      position: relative;
-    }
-
-    .hero::after {
-      content: "";
-      position: absolute;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.55);
-    }
-
-    .hero-content {
-      position: relative;
-      z-index: 1;
-      max-width: 700px;
-      padding: 1rem;
-    }
-
-    .hero h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.75rem;
-    }
-
-    .hero p {
-      font-size: 1.1rem;
-      margin-bottom: 1.5rem;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 0.7rem 1.2rem;
-      border-radius: 6px;
-      background: var(--brand);
-      color: white;
-      font-weight: 600;
-      text-decoration: none;
-      transition: background 0.2s;
-    }
-
-    .btn:hover {
-      /* background: #a11c1c; */
-      background: #ff7f7f; /* lighter coral on hover */
-    }
-
-    /* Sections */
-    section {
-      max-width: 1100px;
-      margin: 3rem auto;
-      padding: 0 1rem;
-    }
-
-    section h2 {
-      margin-bottom: 1.5rem;
-      font-size: 1.8rem;
-      color: var(--brand);
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .card {
-      background: white;
-      border-radius: 10px;
-      padding: 1.2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
-      transition: transform 0.2s;
-    }
-
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 6px 16px rgba(255, 94, 91, 0.2); /* soft coral glow */
-    }
-
-    .card h3 {
-      margin-bottom: 0.5rem;
-    }
-
-    .card p {
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    footer {
-      background: #fff;
-      padding: 1.5rem;
-      border-top: 1px solid #eee;
-      text-align: center;
-      font-size: 0.9rem;
-      color: var(--muted);
-    }
-
-    @media (max-width: 700px) {
-      .hero h1 {
-        font-size: 1.8rem;
-      }
-      nav ul {
-        gap: 1rem;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <!-- Header -->
@@ -239,7 +61,7 @@
   <!-- Contact -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: <a href="mailto:your@email.com">aguramonique@gmail.com</a></p>
+    <p>Email: <a href="mailto:aguramonique@gmail.com">aguramonique@gmail.com</a></p>
     <p>LinkedIn: <a href="#">linkedin.com/in/moniqueagura</a></p>
     <p>GitHub: <a href="#">github.com/monique7579</a></p>
     <p>Pinterest: <a href="#">github.com/monique7579</a></p>
@@ -251,8 +73,6 @@
     <p>© <span id="year"></span> Monique Agura — All rights reserved.</p>
   </footer>
 
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
